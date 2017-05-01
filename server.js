@@ -57,4 +57,8 @@ app.put('/todos/:id', function (request, response) {
   response.redirect('/todos')
 })
 
+app.use(function (request, response, next) {
+  response.status(404).end(request.url + ' not found')
+})
+
 app.listen(port)
