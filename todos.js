@@ -1,14 +1,14 @@
 module.exports = {
   'api': {
     title: 'Finish Api Assignment',
-    completed: false
+    completed: 'false'
   },
   'ejs': {
     title: 'Finish Ejs Assignment',
-    completed: false
+    completed: 'false'
   },
   'clean': {
     title: 'Clean room',
-    completed: true
+    completed: 'true'
   }
 }
